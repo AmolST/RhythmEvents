@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhythm.Event.WebAPI", "Rhythm.Event.Management\Rhythm.Event.WebAPI.csproj", "{728AA20A-43F7-449D-B5ED-1D63CDA6D53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhythm.Event.Web", "Rhythm.Event.Web\Rhythm.Event.Web.csproj", "{A86D3916-2665-4C31-983F-B8A20CDC501D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhythm.Event.Domain", "Rhythm.Event.Domain\Rhythm.Event.Domain.csproj", "{94396062-2E12-4024-9003-1A166DCB7194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhythm.Event.WebAPI.Test", "Rhythm.Event.WebAPI.Test\Rhythm.Event.WebAPI.Test.csproj", "{3CAF17BA-EC2E-4EAA-832B-4F7ED79D42B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhythm.Event.Repository", "Rhythm.Event.Repository\Rhythm.Event.Repository.csproj", "{B48C4A90-DEFF-48FC-A571-8041E033625D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhythm.Event.Dto", "Rhythm.Event.Dto\Rhythm.Event.Dto.csproj", "{FBA899F3-1118-4B72-95F4-D7FBF2E7C4F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{728AA20A-43F7-449D-B5ED-1D63CDA6D53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728AA20A-43F7-449D-B5ED-1D63CDA6D53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728AA20A-43F7-449D-B5ED-1D63CDA6D53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728AA20A-43F7-449D-B5ED-1D63CDA6D53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86D3916-2665-4C31-983F-B8A20CDC501D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86D3916-2665-4C31-983F-B8A20CDC501D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86D3916-2665-4C31-983F-B8A20CDC501D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86D3916-2665-4C31-983F-B8A20CDC501D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94396062-2E12-4024-9003-1A166DCB7194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94396062-2E12-4024-9003-1A166DCB7194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94396062-2E12-4024-9003-1A166DCB7194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94396062-2E12-4024-9003-1A166DCB7194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CAF17BA-EC2E-4EAA-832B-4F7ED79D42B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAF17BA-EC2E-4EAA-832B-4F7ED79D42B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CAF17BA-EC2E-4EAA-832B-4F7ED79D42B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAF17BA-EC2E-4EAA-832B-4F7ED79D42B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48C4A90-DEFF-48FC-A571-8041E033625D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48C4A90-DEFF-48FC-A571-8041E033625D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48C4A90-DEFF-48FC-A571-8041E033625D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48C4A90-DEFF-48FC-A571-8041E033625D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA899F3-1118-4B72-95F4-D7FBF2E7C4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA899F3-1118-4B72-95F4-D7FBF2E7C4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA899F3-1118-4B72-95F4-D7FBF2E7C4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA899F3-1118-4B72-95F4-D7FBF2E7C4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

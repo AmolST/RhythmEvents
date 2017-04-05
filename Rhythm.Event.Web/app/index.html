@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<title>Rhythm Event</title>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="../Scripts/angular.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+
+</head>
+
+
+<body ng-app="app">
+    <h1>Welcome to Rhythm Events</h1>
+    <div ng-controller="eventController">
+        <div ng-repeat="event in events">
+            <event-list></event-list>
+        </div>
+    </div>
+</body>
+</html><script src="modules/appModule.js"></script>
+<script src="controllers/evtCtrl.js"></script>
+<script src="directives/eventCardListDirective.js"></script>

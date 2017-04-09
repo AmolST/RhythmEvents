@@ -1,0 +1,13 @@
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\bin\Debug\Rhythm.Event.Domain.dll.config
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\bin\Debug\Rhythm.Event.Domain.dll
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\bin\Debug\Rhythm.Event.Domain.pdb
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\bin\Debug\EntityFramework.dll
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\bin\Debug\EntityFramework.xml
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\obj\Debug\Rhythm.Event.Domain.Migrations.initial.resources
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\obj\Debug\Rhythm.Event.Domain.Migrations.AddedMoreTables.resources
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\obj\Debug\Rhythm.Event.Domain.Migrations.ChangeEventTableName.resources
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\obj\Debug\Rhythm.Event.Domain.csproj.GenerateResource.Cache
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\obj\Debug\Rhythm.Event.Domain.dll
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\obj\Debug\Rhythm.Event.Domain.pdb

@@ -1,0 +1,4 @@
+D:\Workspaces\Rhythm\Rhythm.Event.Dto\bin\Debug\Rhythm.Event.Dto.dll
+D:\Workspaces\Rhythm\Rhythm.Event.Dto\bin\Debug\Rhythm.Event.Dto.pdb
+D:\Workspaces\Rhythm\Rhythm.Event.Dto\obj\Debug\Rhythm.Event.Dto.dll
+D:\Workspaces\Rhythm\Rhythm.Event.Dto\obj\Debug\Rhythm.Event.Dto.pdb

@@ -9,14 +9,16 @@
 </head>
 
 
-<body ng-app="app">
-    <h1>Welcome to Rhythm Events</h1>
-    <div ng-controller="eventController">
-        <div ng-repeat="event in events">
-            <event-list></event-list>
-        </div>
+<body ng-app="eventApp">
+<h1>Welcome to Rhythm Events</h1>
+<div ng-controller="eventController">
+    <div ng-repeat="event in events">
+        <event-card></event-card>
     </div>
+</div>
 </body>
-</html><script src="modules/appModule.js"></script>
-<script src="controllers/evtCtrl.js"></script>
-<script src="directives/eventCardListDirective.js"></script>
+</html>
+<script src="modules/event-module.js"></script>
+<script src="services/event-service.js"></script>
+<script src="controllers/event-controller.js"></script>
+<script src="directives/event-directive.js"></script>

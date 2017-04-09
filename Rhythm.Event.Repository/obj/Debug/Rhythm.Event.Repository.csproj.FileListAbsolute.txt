@@ -1,0 +1,4 @@
+D:\Workspaces\Rhythm\Rhythm.Event.Repository\bin\Debug\Rhythm.Event.Repository.dll
+D:\Workspaces\Rhythm\Rhythm.Event.Repository\bin\Debug\Rhythm.Event.Repository.pdb
+D:\Workspaces\Rhythm\Rhythm.Event.Repository\obj\Debug\Rhythm.Event.Repository.dll
+D:\Workspaces\Rhythm\Rhythm.Event.Repository\obj\Debug\Rhythm.Event.Repository.pdb

@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <script src="../Scripts/angular.js"></script>
+    <script src="../Scripts/angular-route.js"></script>
     <link href="../Content/bootstrap.css" rel="stylesheet" />
 </head>
 
@@ -16,14 +17,14 @@
             <a class="navbar-brand" href="#">Rhythm Events</a>
         </div>
         <ul class="nav navbar-nav">
-            <li><a href="#">Events</a></li> 
+            <li><a href="#events">Events</a></li> 
             <li><a href="#">Packages</a></li>
             <li><a href="#">Clients</a></li>
             <li><a href="#">About me</a></li>
-
         </ul>
     </div>
 </nav>
+<div ng-view></div>
 </body>
 </html>
 <script src="modules/event-module.js"></script>

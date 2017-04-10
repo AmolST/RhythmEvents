@@ -5,17 +5,25 @@
     <meta charset="utf-8" />
     <script src="../Scripts/angular.js"></script>
     <link href="../Content/bootstrap.css" rel="stylesheet" />
-
 </head>
 
 
 <body ng-app="eventApp">
 <h1>Welcome to Rhythm Events</h1>
-<div ng-controller="eventController">
-    <div ng-repeat="event in events">
-        <event-card></event-card>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Rhythm Events</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#">Events</a></li> 
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">About me</a></li>
+
+        </ul>
     </div>
-</div>
+</nav>
 </body>
 </html>
 <script src="modules/event-module.js"></script>

@@ -1,16 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Rhythm.Event.Management",
-    "\\Rhythm.Event.Management\\Controllers",
     "\\Rhythm.Event.Web",
     "\\Rhythm.Event.Web\\app",
-    "\\Rhythm.Event.Web\\app\\controllers",
-    "\\Rhythm.Event.Web\\app\\directives",
     "\\Rhythm.Event.Web\\app\\modules",
     "\\Rhythm.Event.Web\\app\\services",
-    "\\Rhythm.Event.Web\\Scripts"
+    "\\Rhythm.Event.Web\\app\\templates"
   ],
-  "SelectedNode": "\\Rhythm.Event.Web\\app\\services\\event-service.js",
+  "SelectedNode": "\\Rhythm.Event.Web\\app\\modules\\event-module.js",
   "PreviewInSolutionExplorer": false
 }

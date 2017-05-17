@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,9 +46,20 @@
     <Compile Include="Interfaces\IRhythmEventRepository.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Realizations\Repository.cs" />
     <Compile Include="Realizations\RhythmEventRepository.cs" />
+    <Compile Include="ServiceResult.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Rhythm.Event.Domain\Rhythm.Event.Domain.csproj">
+      <Project>{94396062-2e12-4024-9003-1a166dcb7194}</Project>
+      <Name>Rhythm.Event.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rhythm.Event.Dto\Rhythm.Event.Dto.csproj">
+      <Project>{FBA899F3-1118-4B72-95F4-D7FBF2E7C4F9}</Project>
+      <Name>Rhythm.Event.Dto</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

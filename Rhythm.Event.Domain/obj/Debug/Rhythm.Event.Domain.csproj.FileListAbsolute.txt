@@ -11,3 +11,5 @@ D:\Workspaces\Rhythm\Rhythm.Event.Domain\obj\Debug\Rhythm.Event.Domain.Migration
 D:\Workspaces\Rhythm\Rhythm.Event.Domain\obj\Debug\Rhythm.Event.Domain.csproj.GenerateResource.Cache
 D:\Workspaces\Rhythm\Rhythm.Event.Domain\obj\Debug\Rhythm.Event.Domain.dll
 D:\Workspaces\Rhythm\Rhythm.Event.Domain\obj\Debug\Rhythm.Event.Domain.pdb
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\obj\Debug\Rhythm.Event.Domain.csprojResolveAssemblyReference.cache
+D:\Workspaces\Rhythm\Rhythm.Event.Domain\obj\Debug\Rhythm.Event.Domain.Migrations.ChangesToDB.resources

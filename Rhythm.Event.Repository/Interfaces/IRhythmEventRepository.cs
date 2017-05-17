@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Rhythm.Event.Dto;
 
-namespace Rhythm.Event.Repository.Interfaces
+namespace Rhythm.Event.Repository
 {
-    public interface IRhythmEventRepository : IRepository
+    public interface IRhythmEventRepository : IRepository<RhythmEventDto>
     {
 
     }

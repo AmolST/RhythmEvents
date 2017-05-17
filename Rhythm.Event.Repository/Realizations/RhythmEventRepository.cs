@@ -3,18 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Rhythm.Event.Repository.Interfaces;
+using Rhythm.Event.Dto;
 
-namespace Rhythm.Event.Repository.Realizations
+
+namespace Rhythm.Event.Repository
 {
     public class RhythmEventRepository : IRhythmEventRepository
     {
-        public IEnumerable<T> GetEntities<T>()
+        public IEnumerable<RhythmEventDto> GetEntities()
         {
             throw new NotImplementedException();
         }
 
-        public T GetEnitity<T, TU>(TU id)
+        public RhythmEventDto GetEnitity(long id)
         {
             throw new NotImplementedException();
         }

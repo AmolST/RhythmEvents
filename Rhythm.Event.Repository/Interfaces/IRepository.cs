@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace Rhythm.Event.Repository.Interfaces
+namespace Rhythm.Event.Repository
 {
-    public interface IRepository
+    public interface IRepository<T>
     {
-        IEnumerable<T> GetEntities<T>();
-        T GetEnitity<T, TU>(TU id);
+        ServiceResult Add(T entity);
+        ServiceResult Delete(long id);
+        IEnumerable<T> GetEntities();
+        T GetEnitity(long id);
     }
 }
